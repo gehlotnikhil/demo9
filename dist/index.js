@@ -11,8 +11,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 const express = require("express");
 const dotenv = require("dotenv");
 const app = express();
-const { prismaMain } = require("./test");
-const { PrismaClient } = require("@prisma/client");
+// const {prismaMain} = require("./test")
+// const { PrismaClient } = require("@prisma/client");
 dotenv.config();
 const PORT = process.env.PORT;
 // const prisma = new PrismaClient();

@@ -18,3 +18,5 @@ node_modules/
 # Ignore test files
 *.test.ts
 *.test.js
+*.ts
+*.js
